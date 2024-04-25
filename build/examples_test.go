@@ -2,9 +2,10 @@ package build_test
 
 import (
 	"fmt"
-	"github.com/yourbasic/graph"
-	"github.com/yourbasic/graph/build"
 	"math"
+
+	"github.com/gandarez/graph-go"
+	"github.com/gandarez/graph-go/build"
 )
 
 // Find a shortest path going back and forth between

@@ -2,7 +2,8 @@ package graph_test
 
 import (
 	"fmt"
-	"github.com/yourbasic/graph"
+
+	"github.com/gandarez/graph-go"
 )
 
 const (

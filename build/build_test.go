@@ -2,9 +2,10 @@ package build
 
 import (
 	"fmt"
-	"github.com/yourbasic/graph"
 	"reflect"
 	"testing"
+
+	"github.com/gandarez/graph-go"
 )
 
 func diff(res, exp interface{}) (message string, diff bool) {

@@ -1,6 +1,6 @@
 // Package build offers a tool for building virtual graphs.
 //
-// Virtual graphs
+// # Virtual graphs
 //
 // In a virtual graph no vertices or edges are stored in memory,
 // they are instead computed as needed. New virtual graphs are constructed
@@ -13,7 +13,7 @@
 // they implement the Iterator interface and hence can be used directly
 // by any algorithm in the graph package.
 //
-// Performance tips
+// # Performance tips
 //
 // When possible, try to use predefined building blocks rather than
 // filter functions. In particular, note that graphs built by the Generic
@@ -23,16 +23,15 @@
 // to turn on caching for any component. This gives constant time
 // performance for all basic operations on that component.
 //
-// Tutorial
+// # Tutorial
 //
 // The Euclid and Maxflow examples show how to build graphs from
 // standard components using composition and filtering. They also
 // demonstrate how to apply a cost function to a virtual graph.
-//
 package build
 
 import (
-	"github.com/yourbasic/graph"
+	"github.com/gandarez/graph-go"
 )
 
 // Virtual represents a virtual graph.

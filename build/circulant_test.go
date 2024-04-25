@@ -1,8 +1,9 @@
 package build
 
 import (
-	"github.com/yourbasic/graph"
 	"testing"
+
+	"github.com/gandarez/graph-go"
 )
 
 func TestCirculant(t *testing.T) {
